@@ -1,0 +1,126 @@
+:root {
+  --ts: 21px;
+}
+
+span {
+  display: block;
+}
+
+html, body, center, .cometruecontents {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.cometruecontents section {
+  margin: 0!important;
+}
+
+.cometruecontents .mainsection {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.cometruecontents .mainsection .tit {
+  margin-right: 140px;
+  color: #000000;
+  font-size: 25px!important;
+  position: absolute;
+  transition: .38s;
+  letter-spacing: 1px;
+  text-shadow: unset;
+  font-weight: unset;
+  margin-top: 30px;
+}
+
+.fd_pub {
+  opacity: 0;
+}
+
+.cometruecontents .mainsection .tit.fb_pub.ac {
+  margin-right: 0px;
+  opacity: 1;
+}
+
+.cometruecontents .mainsection .tit.fb_pub.ac2 {
+  letter-spacing: 22px;
+  margin-right: -22px;
+}
+
+.cometruecontents .mainsection .subtit {
+  opacity: 0;
+  position: absolute;
+  transition: .43s ease-out;
+  top: 30px;
+}
+
+.cometruecontents .mainsection .subtit.frontend.ac4 {
+  top: 58px;
+  opacity: 1;
+}
+
+.cometruecontents .mainsection .subtit.frontend.ac5 {
+  top: 67px;
+  opacity: 0;
+}
+
+.cometruecontents .mainsection .subtit.developer.ac6 {
+  opacity: 1;
+  top: 58px;
+}
+
+.cometruecontents .mainsection .subtit.developer.ac7 {
+  top: 67px;
+  opacity: 0;
+}
+
+.cometruecontents .mainsection .tit.fb_pub.ac8 {
+  text-shadow: 0 0 var(--ts) #CD5C5C;
+  color: #2C3E50;
+  font-weight: 600;
+  letter-spacing: 15px;
+  margin-right: -15px;
+}
+
+.cometruecontents .mainsection .tit.fb_pub.ac9 {
+  text-shadow: 0 0 var(--ts) #FFA07A;
+}
+
+.cometruecontents .mainsection .tit.fb_pub.ac10 {
+  text-shadow: 0 0 var(--ts) #FFA500;
+}
+
+.tit.ft_put {
+margin-bottom: 40px;
+  opacity: 0;
+transition: .43s ease-out;
+
+}
+
+.cometruecontents .mainsection .tit.fb_pub.ac11 {
+  text-shadow: 0 0 var(--ts) #FFA500;
+margin-top: 40px;
+opacity: 0;
+}
+
+.cometruecontents .mainsection .tit.ac12 {
+  opacity: 1;
+  margin-bottom: 0;
+}
+
+.detail {
+  margin-top: 0;
+  margin-left: 64px;
+  display: block;
+  opacity: 0;
+  transition: .22s;
+}
+
+.detail.ac13 {
+   margin-top: 63px;
+   opacity: 1;
+ }

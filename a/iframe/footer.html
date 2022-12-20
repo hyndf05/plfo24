@@ -1,0 +1,15 @@
+<a class="f_plain" id="cur">커리큘럼</a>
+  <a class="f_plain" id="goal">목표</a>
+  <a class="f_plain" id="viewTimetable" style="position:relative;">시간표
+    <div class="w" id="timetableOptions" style="display:none;position:absolute;bottom:0;vertical-align:middle;left:0;width:100%;height:38px;background-color:#f1f1f1;align-items:center;">
+      <a class="f_plain" style="margin-left:7px;margin-right:9px;" id="timetableWeekdays">평일</a>
+      <a class="f_plain" style="margin-right:9px;" id="timetableWeekends">주말</a>
+      <span style="color:#ff0000;position:absolute;right:11px;" id="closeTimetableOptions">닫기</span>
+    </div>
+  </a>
+  <a class="f_plain" id="planner">플래너</a>
+  <script>
+  $('#viewTimetable').click(function(){$('#timetableOptions').css('display', 'flex');})
+  $('#closeTimetableOptions').click(function(){$('#timetableOptions').css('display', 'none');})
+  </script>
+  <a href="/도전/2등급">도전!2등급</a>
